@@ -8,7 +8,7 @@ $user	= "root";
 $conn = new PDO("mysql:host=$host;dbname=$db",$user);
 
 ?>
-<html>
+<!--<html>
 <head>
 	<title>Ejemplo PDO - PHP</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -29,10 +29,10 @@ $conn = new PDO("mysql:host=$host;dbname=$db",$user);
 			<td>1</td>
 			<td>Titulo 1</td>
 			<td><?php
-				$q = $conn->query($sql);
+/*				$q = $conn->query($sql);
 				while($r = $q->fetch()){
 					print_r($r);
-				?></td>
+				*/?></td>
 	  	</tr>
 	  	<tr>
 			<td>2</td>
@@ -43,4 +43,4 @@ $conn = new PDO("mysql:host=$host;dbname=$db",$user);
 </table>
   </div>
 </body>
-</html>
+</html>-->
